@@ -10,7 +10,7 @@ trigger:
     displayName: 'Build the web application'
     jobs: 
     - job: 'Build'
-      displayName: 'Build job'
+      displayName: 'Build job-1'
       pool:
         vmImage: 'ubuntu-18.04'
         demands:
